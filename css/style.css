@@ -1,0 +1,160 @@
+#politico{
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 530;
+    font-variant: normal;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.005rem;
+    line-height: 1;
+    color: #dc0228 
+}
+#nav-bar ul{
+    padding: 0;
+    list-style: none;    
+}
+#nav-bar li{
+    display: inline;
+}
+#nav-bar a{
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.01rem;
+    line-height: 1.2;
+    padding-right: 15px;
+    color: rgba(0,0,0,0.85);
+}
+.category a{
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.2;
+    color: #dc0228;
+}
+.main-title{
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: -0.05rem;
+    line-height: 1;
+    color: #000;
+}
+.subtitle{
+    text-align: left;
+    margin-top: 0.5rem;
+    margin: 0;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #696d70;
+}
+.epigraph{
+    text-align: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(180,180,180,0.35);
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding-bottom: .625rem;
+    margin-bottom: .625rem;
+    line-height: 1.2;
+    color: #696d70;
+}
+.author-bar p{
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    line-height: 1.5;
+    font-size: 0.75rem;
+    color: #696d70;
+    
+}
+.author-bar ul{
+    padding: 0;
+    list-style: none;     
+}
+.author-bar li{
+    display: inline;
+}
+.author-bar a{
+    text-align: left;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #696d70;
+}
+.paragraph{
+    text-align: left;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 1.875rem;
+    margin: 0;
+
+}
+.paragraph a{
+    text-decoration: none;
+    color: #007BC7;
+}
+.tags span{
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+}
+.tags a{
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 0.01rem;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+}
+#page-footer{
+    background-color: #121522
+}
+#page-footer a{
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.001rem;
+    line-height: 1.2;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+#copyright{
+    text-align: right;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #fff;
+}
