@@ -3,7 +3,7 @@
     text-align: center;
     width: 100%;
     height: 90px;
-    border-bottom: 1px solid rgba(180,180,180,0.35); ;
+    border-bottom: 1px solid rgba(180,180,180,0.35);
 }
 .header-politico h1{
     display: inline-block;
@@ -55,6 +55,16 @@
     line-height: 1.2;
     padding-right: 15px;
     color: rgba(0,0,0,0.85);
+}
+.publicity-h{
+    width: 100%;
+    height: 140px;
+    margin: 0;
+    border-bottom: 1px solid rgba(180,180,180,0.35);
+}
+.publicity-h img{
+    margin-top: 20px;
+    margin-left: 23%;
 }
 .category a{
     text-align: left;
@@ -161,12 +171,22 @@
     color: #000;
 }
 #page-footer{
-    background-color: #121522
+    background-color: #121522;
+    width: 100%;
+    height: 175px;
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+#page-footer li{
+    display: inline;
+    border-left: 1px solid rgba(180,180,180,0.35);
+    margin: 5px;
 }
 #page-footer a{
     text-align: left;
     font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin: 0;
+    margin: 10px auto;
+    padding-left: 5px;
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.001rem;
@@ -174,10 +194,18 @@
     text-decoration: none;
     color: rgba(255,255,255,0.8);
 }
+#page-footer ul{
+    display: inline-block;
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 65px;
+}
 #copyright{
+    float: right;
     text-align: right;
     font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin: 0;
+    margin-top: 70px;
+    margin-right: 60px;
     font-size: 0.75rem;
     font-weight: 500;
     text-decoration: none;
