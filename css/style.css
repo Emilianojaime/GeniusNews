@@ -66,6 +66,18 @@
     margin-top: 20px;
     margin-left: 23%;
 }
+.news{
+    display: inline-block;
+    width: 46%;
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 3%;
+}
+.news img{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 .category a{
     text-align: left;
     font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -110,7 +122,14 @@
     line-height: 1.2;
     color: #696d70;
 }
+.author-bar{
+    margin: 30px;
+}
 .author-bar p{
+    width: 25%;
+    display: inline-block;
+   margin: 0;
+    padding: 0;
     text-align: left;
     font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
@@ -121,18 +140,24 @@
     
 }
 .author-bar ul{
-    padding: 0;
-    list-style: none;     
+    display: inline-block;
+    padding: 0;   
+    margin-left: 250px; 
+    list-style: none; 
 }
 .author-bar li{
-    display: inline;
+    float: right;
 }
 .author-bar a{
+    display: inline;
     text-align: left;
     padding-right: 15px;
     text-decoration: none;
     font-weight: bold;
     color: #696d70;
+}
+.author-bar img{
+    width: 25px;
 }
 .paragraph{
     text-align: left;
@@ -142,8 +167,6 @@
     font-weight: 500;
     line-height: 1.6;
     margin-bottom: 1.875rem;
-    margin: 0;
-
 }
 .paragraph a{
     text-decoration: none;
@@ -169,6 +192,11 @@
     font-weight: 500;
     line-height: 1.2;
     color: #000;
+}
+#sponsored-content{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 2%;
 }
 #page-footer{
     background-color: #121522;
