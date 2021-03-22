@@ -172,16 +172,6 @@
     text-decoration: none;
     color: #007BC7;
 }
-.tags span{
-    text-align: left;
-    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #000;
-    font-weight: bold;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    line-height: 1.2;
-    letter-spacing: 0.1rem;
-}
 .tags a{
     text-align: left;
     text-transform: uppercase;

@@ -1,0 +1,143 @@
+body{
+    overflow-x: hidden; /* Lo inserte para solucionar un problema , tengo un overflow en el eje x
+    pero no encuentro como solucionarlo, solo esto parece arreglarlo. */
+}
+.news{
+    display: inline-block;
+    width: 41%;
+    margin-left: 30%;
+    margin-right: 33%;
+    margin-top: 3%;
+}
+.news img{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.category a{
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.2;
+    color: #dc0228;
+}
+.main-title{
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 2%;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: -0.05rem;
+    line-height: 1;
+    color: #000;
+}
+.subtitle{
+    text-align: left;
+    margin-top: 0.5rem;
+    margin: 0;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #696d70;
+}
+.epigraph{
+    text-align: left;
+    margin: 0;
+    padding-bottom: .625rem;
+    margin-bottom: .625rem;
+    border-bottom: 1px solid rgba(180,180,180,0.35);
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #696d70;
+}
+.author-bar{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding: 0;
+}
+.author-bar p{
+    display: inline-block;
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: 2%;
+    padding: 0;
+    text-align: left;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    line-height: 1.5;
+    font-size: 0.75rem;
+    color: #696d70; 
+}
+.author-bar ul{
+    display: inline-block;
+    margin-left: 43%;
+    padding: 0;   
+    list-style: none; 
+}
+.author-bar li{
+    display: inline;
+}
+.author-bar a{
+    display: inline;
+    text-align: left;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #696d70;
+}
+.author-bar img{
+    width: 25px;
+    margin: 0;
+    padding: 0;
+}
+.paragraph{
+    text-align: left;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 1.875rem;
+    color: #000;
+}
+.paragraph a{
+    text-decoration: none;
+    color: #007BC7;
+}
+.news iframe{
+    margin-bottom: 3%;
+}
+.tags{
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+.tags span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+}
+.tags a{
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 0.01rem;
+    font-family: "din-2014","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+}
+#sponsored-content{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 2%;
+}
